@@ -1,31 +1,20 @@
----
-title: "Statistics"
-author: "Sam Passmore"
-date: "2 January 2017"
-output: 
-  html_document:
-    number_sections: true
----
+# Statistical Questions
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 _Statistical computing is the process through which data scientists take raw data and create predictions and models backed by the data. Without an advanced knowledge of statistics it is difficult to succeed as a data scientist – accordingly it is likely a good interviewer will try to probe your understanding of the subject matter with statistics-oriented data science interview questions. Be prepared to answer some fundamental statistics questions as part of your data science interview._
 
-# What is the Central Limit Theorem and why is it important?
+### What is the Central Limit Theorem and why is it important?
 
-The central limit therom is that the mean of means of a sample will be approximately normal. As the sample sizes increase the approximation will converge towards a normal distribution. 
+The central limit therom dictates that when you repeatedly calculate the mean from different samples of a population, the distribution of those means will be normal. The larger the size of each sample, the faster the resulting distribution will converge to normal. This is true regardless of the distribution of the population. 
 
-It is commonly thought that a sample size that is above 30 - 40 can rely on the central limit theorm. 
+The central limit theorem is important because it allows the utilisation of a suite of statistical tests that assume a normal distribution. 
 
-CLT is important because it allows us to utilize a range of statistical methods that assume the data is in a normal distribution. 
 
-# What is sampling? How many sampling methods do you know?
+### What is sampling? How many sampling methods do you know?
 
-Sampling is a way of understanding the distribution of a population without having to perform a census. For example, by using a random sample of a population, we can approximate an average and some error. 
+Sampling is a way of approximating the distribution of a population without having to perform a census on that population. 
 
-__Methods of sampling__
+#### Methods of sampling
 
 _Simple Random sampling_
   
@@ -53,4 +42,3 @@ Line-intercept sampling
 Panel sampling
 Snowball sampling
 Theoretical sampling
-
