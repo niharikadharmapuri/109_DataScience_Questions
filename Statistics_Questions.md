@@ -1,5 +1,7 @@
 # Statistical Questions
 
+##### Table of Contents  
+[Headers](#headers) 
 
 _Statistical computing is the process through which data scientists take raw data and create predictions and models backed by the data. Without an advanced knowledge of statistics it is difficult to succeed as a data scientist – accordingly it is likely a good interviewer will try to probe your understanding of the subject matter with statistics-oriented data science interview questions. Be prepared to answer some fundamental statistics questions as part of your data science interview._
 
@@ -42,17 +44,8 @@ _Quota sampling_
 
 This is a non-probability based sampling technique. Here there may be some criteria (or a quota) imposed by the researcher on what the end sample may look like. For example: the sample should contain 50 males and 60 females. Because data points are chosen deliberately, this makes quota sampling a non-random method - and is often avoided because of this. 
 
-_Minimax sampling_
+For more examples of sampling methods, [check out the Wikipedia page.](https://en.wikipedia.org/wiki/Sampling_(statistics)#Sampling_methods)
 
-_Accidental sampling_
-
-_Line-intercept sampling_
-
-_Panel sampling_
-
-_Snowball sampling_
-
-_Theoretical sampling_
 
 ## What is the difference between Type I vs Type II error?
 
@@ -63,6 +56,14 @@ Type II errors happen when we fail to reject a false null hypothesis. Also known
 ## What is linear regression? What do the terms P-value, coefficient, R-Squared value mean? What is the significance of each of these components?
 
 Linear regression is used to model the relationship between a variable a researcher is intersted in (response) and variables that may explain the variation in that variable (predictors). 
+
+The result of a regression will give you a coefficient for each predictor, a corresponding p-value and a R^2 value for the complete model.
+
+A coefficient often represents the change in the response for a one-unit change in the predictor - assuming all other predictors are held constant. If the predictor is categorical, then the value represents the change in the response for one category, relative to a reference category. 
+
+Each coefficient will have a p-value. The p-value is the result of a test asking 'is the coefficient significantly different from zero'. If the p-value is below our threshold, then we believe the predictor is significantly different from zero and therefore has a significant effect on the response. The threshold is commonly 0.05. 
+
+R^2 differs from the coefficient and p-value in that it represents the goodness of fit of the model as a whole, rather than individual predictors. R^2 values range from 0 - 1, where a value of 1 means the model perfectly fits the data. It provides a value which shows how much of the total variation within the data is explained by the model. 
 
 What are the assumptions required for linear regression?
 What is a statistical interaction?
