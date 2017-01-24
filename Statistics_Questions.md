@@ -2,16 +2,18 @@
 
 ##### Questions
 [Central Limit Theorem](#CLT)
+[Sampling](#Sampling)
 
 _Statistical computing is the process through which data scientists take raw data and create predictions and models backed by the data. Without an advanced knowledge of statistics it is difficult to succeed as a data scientist – accordingly it is likely a good interviewer will try to probe your understanding of the subject matter with statistics-oriented data science interview questions. Be prepared to answer some fundamental statistics questions as part of your data science interview._
 
-### What is the Central Limit Theorem and why is it important? <a name='CLT'>
+<a name='CLT'>
+### What is the Central Limit Theorem and why is it important? 
 
 The central limit therom dictates that when you repeatedly calculate the mean from different samples of a population, the distribution of those means will be normal. The larger the size of each sample, the faster the resulting distribution will converge to normal. This is true regardless of the distribution of the population. 
 
 The central limit theorem is important because it allows the utilisation of a suite of statistical tests that assume a normal distribution. 
 
-
+<a name='Sampling'>
 ### What is sampling? How many sampling methods do you know?
 
 Sampling is a way of approximating the distribution of a population without having to perform a census on that population. 
