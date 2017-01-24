@@ -4,7 +4,7 @@
 [Central Limit Theorem](#CLT)  
 [Sampling](#Sampling)  
 [Type I & Type II error](#error)  
-[Linear regression](#regression)
+[Linear regression](#regression)  
 [Linear regression assumptions](#regression_assumptions)  
 [Statistical Interaction](#interaction)  
 [Selection bias](#selection_bias)  
