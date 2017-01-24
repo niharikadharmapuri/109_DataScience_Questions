@@ -3,8 +3,13 @@
 ##### Questions
 [Central Limit Theorem](#CLT)  
 [Sampling](#Sampling)  
-[Type I & Type 2 error](#error)
+[Type I & Type II error](#error)  
 [Linear regression](#regression)
+[Linear regression assumptions](#regression_assumptions)  
+[Statistical Interaction](#interaction)  
+[Selection bias](#selection_bias)  
+[Non-Gaussian data](#nongaussian)  
+[Binomial formula](#binomial)
 
 _Statistical computing is the process through which data scientists take raw data and create predictions and models backed by the data. Without an advanced knowledge of statistics it is difficult to succeed as a data scientist – accordingly it is likely a good interviewer will try to probe your understanding of the subject matter with statistics-oriented data science interview questions. Be prepared to answer some fundamental statistics questions as part of your data science interview._
 
@@ -70,8 +75,17 @@ Each coefficient will have a p-value. The p-value is the result of a test asking
 
 R^2 differs from the coefficient and p-value in that it represents the goodness of fit of the model as a whole, rather than individual predictors. R^2 values range from 0 - 1, where a value of 1 means the model perfectly fits the data. It provides a value which shows how much of the total variation within the data is explained by the model. 
 
-What are the assumptions required for linear regression?
-What is a statistical interaction?
-What is selection bias?
-What is an example of a dataset with a non-Gaussian distribution?
-What is the Binomial Probability Formula?
+<a name='regression_assumptions'>
+## What are the assumptions required for linear regression?
+
+<a name='interaction'>
+## What is a statistical interaction?
+
+<a name='selection_bias'>
+## What is selection bias?
+
+<a name='nongaussian'>
+## What is an example of a dataset with a non-Gaussian distribution?
+
+<a name='binomial'>
+## What is the Binomial Probability Formula?
