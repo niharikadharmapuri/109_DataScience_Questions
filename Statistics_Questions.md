@@ -3,6 +3,8 @@
 ##### Questions
 [Central Limit Theorem](#CLT)  
 [Sampling](#Sampling)  
+[Type I & Type 2 error](#error)
+[Linear regression](#regression)
 
 _Statistical computing is the process through which data scientists take raw data and create predictions and models backed by the data. Without an advanced knowledge of statistics it is difficult to succeed as a data scientist – accordingly it is likely a good interviewer will try to probe your understanding of the subject matter with statistics-oriented data science interview questions. Be prepared to answer some fundamental statistics questions as part of your data science interview._
 
@@ -48,13 +50,14 @@ This is a non-probability based sampling technique. Here there may be some crite
 
 For more examples of sampling methods, [check out the Wikipedia page.](https://en.wikipedia.org/wiki/Sampling_(statistics)#Sampling_methods)
 
-
+<a name='error'>
 ## What is the difference between Type I vs Type II error?
 
 Type I errors happen when we reject a true null hypothesis. Also known as false positives. This type of error is often controlled by the 'level of significance' and alpha test. For example: a type I error would occur when we accept a drug has an effect on a disease, but in reality it did not.  
 
 Type II errors happen when we fail to reject a false null hypothesis. Also known as false negatives. For example: A type II error would occur if we accepted that a drug had no effect on a disease, but in reality it did.
 
+<a name='regression'>
 ## What is linear regression? What do the terms P-value, coefficient, R-Squared value mean? What is the significance of each of these components?
 
 Linear regression is used to model the relationship between a variable a researcher is intersted in (response) and variables that may explain the variation in that variable (predictors). 
