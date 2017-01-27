@@ -5,7 +5,7 @@ The questions are taken from [this website](https://www.springboard.com/blog/dat
 
 And are split into 6 files, linking to the 6 types of questions one might expect to get in a data science interview
 
-* Statistics
+* [Statistics](Statistics_Questions.md)
 * Programming
 * Modelling 
 * Behavioural
