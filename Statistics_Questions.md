@@ -80,6 +80,19 @@ R^2 differs from the coefficient and p-value in that it represents the goodness 
 <a name='regression_assumptions'>
 ## What are the assumptions required for linear regression?
 
+There are four key assumptions in a linear regression: 
+
+linear relationships between the response and the predictor variables (holding the others constant)
+
+statistical independence in the errors, unlike time series where errors be correlated. 
+
+homocedacity, also known as the equality of variance in the errors. 
+
+Normal distribution in the errors
+
+This was nicely summed up by an undergraduate lecturer of mine in song:
+'I see a linear model. I see assumptions in epsilon. Independently, identically distributed. Normal, zero, sigma squared' 
+
 <a name='interaction'>
 ## What is a statistical interaction?
 
