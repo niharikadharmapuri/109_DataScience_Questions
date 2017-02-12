@@ -40,8 +40,8 @@ Both the languages are good for certain scenarios - and there are other language
 <a name='CLT'>
 ### How would you clean a dataset in (insert language here)?
 
-> Tidy datasets are all alike but every messy dataset is messy in its own way
-> - Hadley Wickham
+> __Tidy datasets are all alike but every messy dataset is messy in its own way__
+> -- Hadley Wickham
 
 I primarily use R, so will answer this question here. However, most of the work will be manual - in order to understand the structure and assumptions made in the dataset. It is difficult to determine the exact process of cleaning the dataset - because as the quote above suggests, unclean data sets are all unique. 
 
