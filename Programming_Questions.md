@@ -12,7 +12,9 @@ _To test your programming skills, employers will ask two things during their dat
 	[Last Project](#lastpro)
 	
 <a name='general'>
+
 ## 2.1 General
+
 <a name='languages'>
 
 ### With which programming languages and environments are you most comfortable working?
@@ -20,6 +22,7 @@ _To test your programming skills, employers will ask two things during their dat
 I am most comfortable working in R and Python & VBA. I have some experience with statistical software SPSS & SAS, C# & SQL. 
 
 <a name='procon'>
+
 ### What are some pros and cons about your favorite statistical software?
 
 R:     
@@ -35,28 +38,17 @@ Python, however, is not as fast as other compiled languages, such as Java or C++
 Both the languages are good for certain scenarios - and there are other languages that may be better for other situations. I usually work on statistical and small programs therefore these languages suit the tasks I perform very well. 
 
 <a name='algo'>
+
 ### Tell me about an original algorithm you’ve created.
 
-When working for Pingar International I needed to automatically dete# 109 Data Science Interview Questions
-This is a personal record of 109 common data science interview questions that I will go through and answer in order to understand what base knowledge is expected of a data scientist. 
-
-The questions are taken from [this website](https://www.springboard.com/blog/data-science-interview-questions/)
-
-And are split into 6 files, linking to the 6 types of questions one might expect to get in a data science interview
-
-* [Statistics](Statistics_Questions.md)
-* [Programming](Programming_Questions.md)
-* Modelling 
-* Behavioural
-* Culture Fit
-* Problem Solving
-
-rmine the number of topics for a topic model. In order to do this I retrieved the AIC value for a set range of groups (which could be defined by the user). It was often the case that as more groups were added, AIC continuously got smaller. This meant extracting the lowest AIC value would only select the most number of groups, which did not make practical sense. However, there was often a sharp change in AIC values decreasing, leaving a distinct elbow curve in the distributions of AIC values. Often the elbow of this curve showed a reasonable number of topics in the data. So in order to select this value I used ....
+When working for Pingar International I needed to automatically determine the number of topics for a topic model. In order to do this I retrieved the AIC value for a set range of groups (which could be defined by the user). It was often the case that as more groups were added, AIC continuously got smaller. This meant extracting the lowest AIC value would only select the most number of groups, which did not make practical sense. However, there was often a sharp change in AIC values decreasing, leaving a distinct elbow curve in the distributions of AIC values. Often the elbow of this curve showed a reasonable number of topics in the data. So in order to select this value I used ....
 
 <a name='perspro'>
+
 ### Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
 
 <a name='tidy'>
+
 ### How would you clean a dataset in (insert language here)?
 
 > _Tidy datasets are all alike but every messy dataset is messy in its own way_   
@@ -77,4 +69,5 @@ Long format data will hold measurement columns (often one) representing the meas
 A wide format dataset is more commonly seen by humans, as it holds a row per observation and columns represent variables. This makes data easier to sift through as a human, but make this slightly harder computationally. 
 
 <a name='lastpro'>
+
 ### Tell me about the coding you did during your last project?
