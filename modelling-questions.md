@@ -11,6 +11,7 @@ _Data modeling is where a data scientist provides value for a company. Turning d
 [Last Project](#lastpro)
 
 <a name='modeldesign'>
+
 ### Tell me about how you designed the model you created for a past employer or client.
 
 In academia, where I have spent most of my time modelling, I usually being by exploring the data. This is usually though visualisation of the data, but can also be through basic correlation tests and descriptive statistics. 
@@ -18,6 +19,7 @@ In academia, where I have spent most of my time modelling, I usually being by ex
 It is often the case in academia that you are building a model to support a theory, so there is some direction based on previous theory. 
 
 <a name='datavis'>
+
 ### What are your favorite data visualization techniques?
 
 Coming from a statistical background, I often rely on basic graph representations such as scatterplots, box-plots and bar charts to represent data. Although not glamorous approaches to data visualisation they are easily understood by most people. I think the most important aspect of data visualisation is for the end user to understand the message it is trying to convey and therefore should be displayed in the simplest form (which is often the most effective) 
@@ -31,6 +33,7 @@ This pattern can be replicated for 3 continuous variables in a 3D space, and var
 If all variables were continuous, then this problem becomes more difficult. Less important variables could be split into buckets in order to make categorical variables. Although the first approach I would take would be to make a 5 x 5 matrix of scatterplots in order to understand the relationship between each of the pairs of variables. 
 
 ### How is kNN different from k-means clustering?
+
 kNN, or k-nearest neighbors is a classification algorithm, where the k is an integer describing the the number of neighboring data points that influence the classification of a given observation. K-means is a clustering algorithm, where the k is an integer describing the number of clusters to be created from the given data. Both accomplish different tasks.
 
 ### How would you create a logistic regression model?
@@ -43,6 +46,7 @@ kNN, or k-nearest neighbors is a classification algorithm, where the k is an int
 
 
 ### Explain what precision and recall are. How do they relate to the ROC curve?
+
 Answer. Recall describes what percentage of true positives are described as positive by the model. Precision describes what percent of positive predictions were correct. The ROC curve shows the relationship between model recall and specificity – specificity being a measure of the percent of true negatives being described as negative by the model. Recall, precision, and the ROC are measures used to identify how useful a given classification model is.
 
 ### Explain the difference between L1 and L2 regularization methods.
