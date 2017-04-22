@@ -1,6 +1,6 @@
 # Programming Questions
 
-__To test your programming skills, employers will ask two things during their data science interview questions: they’ll ask how you would solve programming problems in theory without writing out the code, and then they will also offer whiteboarding exercises for you to code on the spot. For the latter types of questions we will cover a few examples below, but if you’re looking for in-depth practice solving coding challenges, visit Interview Cake. They have an in-browser module for typing code, and they can walk you through tricky problems – all absolutely free.__
+_To test your programming skills, employers will ask two things during their data science interview questions: they’ll ask how you would solve programming problems in theory without writing out the code, and then they will also offer whiteboarding exercises for you to code on the spot. For the latter types of questions we will cover a few examples below, but if you’re looking for in-depth practice solving coding challenges, visit Interview Cake. They have an in-browser module for typing code, and they can walk you through tricky problems – all absolutely free._
 
 ##### Questions
 [General](#general)    
@@ -14,6 +14,7 @@ __To test your programming skills, employers will ask two things during their da
 <a name='general'>
 ## 2.1 General
 <a name='languages'>
+
 ### With which programming languages and environments are you most comfortable working?
 
 I am most comfortable working in R and Python & VBA. I have some experience with statistical software SPSS & SAS, C# & SQL. 
@@ -36,7 +37,21 @@ Both the languages are good for certain scenarios - and there are other language
 <a name='algo'>
 ### Tell me about an original algorithm you’ve created.
 
-When working for Pingar International I needed to automatically determine the number of topics for a topic model. In order to do this I retrieved the AIC value for a set range of groups (which could be defined by the user). It was often the case that as more groups were added, AIC continuously got smaller. This meant extracting the lowest AIC value would only select the most number of groups, which did not make practical sense. However, there was often a sharp change in AIC values decreasing, leaving a distinct elbow curve in the distributions of AIC values. Often the elbow of this curve showed a reasonable number of topics in the data. So in order to select this value I used ....
+When working for Pingar International I needed to automatically dete# 109 Data Science Interview Questions
+This is a personal record of 109 common data science interview questions that I will go through and answer in order to understand what base knowledge is expected of a data scientist. 
+
+The questions are taken from [this website](https://www.springboard.com/blog/data-science-interview-questions/)
+
+And are split into 6 files, linking to the 6 types of questions one might expect to get in a data science interview
+
+* [Statistics](Statistics_Questions.md)
+* [Programming](Programming_Questions.md)
+* Modelling 
+* Behavioural
+* Culture Fit
+* Problem Solving
+
+rmine the number of topics for a topic model. In order to do this I retrieved the AIC value for a set range of groups (which could be defined by the user). It was often the case that as more groups were added, AIC continuously got smaller. This meant extracting the lowest AIC value would only select the most number of groups, which did not make practical sense. However, there was often a sharp change in AIC values decreasing, leaving a distinct elbow curve in the distributions of AIC values. Often the elbow of this curve showed a reasonable number of topics in the data. So in order to select this value I used ....
 
 <a name='perspro'>
 ### Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
