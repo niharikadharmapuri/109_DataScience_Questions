@@ -89,29 +89,14 @@ homocedacity, also known as the equality of variance in the errors.
 
 Normal distribution in the errors
 
-This was nicely summed up by an undergraduate lecturer of mine in song:    
-> 'I see a linear model. I see assumptions in epsilon. Independently, identically distributed. Normal, zero, sigma squared' 
+This was nicely summed up by an undergraduate lecturer of mine in song:
+'I see a linear model. I see assumptions in epsilon. Independently, identically distributed. Normal, zero, sigma squared' 
 
 <a name='interaction'>
 ## What is a statistical interaction?
-In the context of a regression model, two predictor variables are thought to interact when the value in one variable depends on the value in another (i.e. these variables are not independent).
-
-Another way to say this is that the change in the response is more than the sum of the predictor variables or simultaneous change in the interacting predictor variables does not result in an additive change in the response variable.
 
 <a name='selection_bias'>
 ## What is selection bias?
-Selection bias occurs when the data has not been appropriately sampled resulting in biased results. Some examples of selection bias are: sampling bias, time interval bias, data exclusion 
-
-Any bias that is present in data analyses can result in inaccurate results. It is the responsibility of the analyst and data collector to ensure any bias is minimised and / or accounted for. 
-
-### Sampling bias
-When data is not sampled completely at random bias is always present. The [sampling methods described in above](#Sampling) offer ways to minimize this bias.
-
-### Time interval bias
-An example of time interval bias is trying to measure the average daily temperature. If you take a measurement at regular time intervals and average them - you should have a good estimate of the average temperature. However, if you take measurements at irregular intervals, for example more during the hottest time of the day and less at the coldest, your average is going to have bias.  
-
-### Data exclusion
-Excluding data can often lead to unforeseen bias in analyses and can be very dangerous. Often data is excluded because of prior beliefs or assumptions. 
 
 <a name='nongaussian'>
 ## What is an example of a dataset with a non-Gaussian distribution?

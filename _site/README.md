@@ -7,7 +7,7 @@ And are split into 6 files, linking to the 6 types of questions one might expect
 
 * [Statistics](Statistics_Questions.md)
 * [Programming](Programming_Questions.md)
-* [Modelling](modelling-questions.md)
+* Modelling 
 * Behavioural
 * Culture Fit
 * Problem Solving

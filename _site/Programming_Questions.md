@@ -1,4 +1,4 @@
-# Programming Questions
+# Statistical Questions
 
 __To test your programming skills, employers will ask two things during their data science interview questions: they’ll ask how you would solve programming problems in theory without writing out the code, and then they will also offer whiteboarding exercises for you to code on the spot. For the latter types of questions we will cover a few examples below, but if you’re looking for in-depth practice solving coding challenges, visit Interview Cake. They have an in-browser module for typing code, and they can walk you through tricky problems – all absolutely free.__
 
@@ -7,20 +7,15 @@ __To test your programming skills, employers will ask two things during their da
 	[Programming Languages](#languages)    
 	[Pros & Cons](#procon)    
 	[Personal Algorithm](#algo)    
-	[Personal Projects](#perspro)    
-	[Tidy Data](#tidy)
-	[Last Project](#lastpro)
 	
 <a name='general'>
 ## 2.1 General
 <a name='languages'>
 ### With which programming languages and environments are you most comfortable working?
-
 I am most comfortable working in R and Python & VBA. I have some experience with statistical software SPSS & SAS, C# & SQL. 
 
 <a name='procon'>
 ### What are some pros and cons about your favorite statistical software?
-
 R:     
 R is a great language for statistical analysis, has a very supportive and active community and is open source. 
 
@@ -36,30 +31,27 @@ Both the languages are good for certain scenarios - and there are other language
 <a name='algo'>
 ### Tell me about an original algorithm you’ve created.
 
-When working for Pingar International I needed to automatically determine the number of topics for a topic model. In order to do this I retrieved the AIC value for a set range of groups (which could be defined by the user). It was often the case that as more groups were added, AIC continuously got smaller. This meant extracting the lowest AIC value would only select the most number of groups, which did not make practical sense. However, there was often a sharp change in AIC values decreasing, leaving a distinct elbow curve in the distributions of AIC values. Often the elbow of this curve showed a reasonable number of topics in the data. So in order to select this value I used ....
-
-<a name='perspro'>
+<a name='CLT'>
 ### Describe a data science project in which you worked with a substantial programming component. What did you learn from that experience?
 
-<a name='tidy'>
+<a name='CLT'>
+### Do you contribute to any open source projects?
+
+<a name='CLT'>
 ### How would you clean a dataset in (insert language here)?
 
 > _Tidy datasets are all alike but every messy dataset is messy in its own way_   
 > _Hadley Wickham_
 
-To clean a messy dataset is a difficult process to describe since a messy dataset is uniquely messy. 
-
-I primarily use R, so will answer this question here. However, most of the work will be understanding the structure and assumptions made in the dataset.
+I primarily use R, so will answer this question here. However, most of the work will be manual - in order to understand the structure and assumptions made in the dataset. It is difficult to determine the exact process of cleaning the dataset - because as the quote above suggests, unclean data sets are all unique. 
 
 Firstly we have to determine the type of data we have. This could be structured files  (e.g. SQL Database, .xlsx files, .csv files etc.) or unstructured (.txt, .rtf etc.). 
 
 If there are multiple data files / tables, we also should determine their relationships and attempt to build a map of how the files are linked. 
 
-To cover all possibilities of cleaning a messy dataset  would be tedious. However, the result of cleaning should be consistent. Depending on how the data will be used after cleaning there are few end results. The two most common being either long or wide format data. 
+To cover all the possibilities from the examples above would be tedious - so we will make the assumption that we have an unclean .csv file of data, with one row per observation (which seems like a reasonable assumption) and a large number of rows. 
 
-Long format data will hold measurement columns (often one) representing the measurement values, and a id column, which will show the variables the measurement values represent. Although this dataset is not that easy to determine for a human, it is a common format for visualising data. 
+Reading in and viewing the first number rows in R is easily performed with the `read.table` functions and `head` / `tail` functions. Using  be stored in a `data.frame` type, which makes manipulation relatively straight forward. 
 
-A wide format dataset is more commonly seen by humans, as it holds a row per observation and columns represent variables. This makes data easier to sift through as a human, but make this slightly harder computationally. 
-
-<a name='lastpro'>
+<a name='CLT'>
 ### Tell me about the coding you did during your last project?
